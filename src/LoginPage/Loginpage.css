@@ -2,8 +2,14 @@ body{
     font: 1.6em helvetica;
     box-sizing: border-box;
     background-color:  #f0f2f5;
-
+    height: 70vh;
+    
 }
+html, body {
+    height: 100vh;
+   
+  }
+  
 .Login{
     width: 100%;
     height: 40rem;
@@ -31,6 +37,7 @@ body{
     width: 27rem;
     padding: 1rem;
     border-radius: 1rem;
+    
 }
 input[type=email]{
     width: 100%;
@@ -49,7 +56,7 @@ input[type=password]{
 input::placeholder{
     font-size: 1.3rem;
 }
-.btn{
+.btn {
     display: flex;
         flex-direction: row;
         width: 100%;
@@ -62,6 +69,12 @@ input::placeholder{
         text-decoration: none;
         color: white;
         border-radius: .4rem;
+
+}
+.btn a{
+    text-decoration: none;
+    color:white;
+
 
 }
 .forgott{
