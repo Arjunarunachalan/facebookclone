@@ -1,0 +1,107 @@
+html{
+    font-size:60%;
+    box-sizing:border-box;
+    margin-right: 0px;
+}
+*{
+    margin: 0;
+}
+body{
+    font:1.6rem helvetica;
+        background-color: #f0f2f5;
+        margin-right:0 ;
+}
+.homepage{
+    display: grid;
+}
+.header{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: static;
+   background-color: white ;
+   top: 0;
+   width: 100%;
+   height: 6rem;
+   border: .1rem black;
+   margin-right: 20x;
+}
+.firstheader{
+    display:flex
+}
+.Search{
+    display: flex;
+    align-items: center ;
+    background-color: #f0f2f5;
+    border-radius: 1rem;
+    height: 3rem;
+    padding: 0 20px;
+    margin: 28px 7px;
+
+}
+input[type=search]{
+    width: 150px;
+    padding: 5px 30px;
+    margin: 8px 0;
+    align-items: center;
+    box-sizing: border-box;
+    outline-width: 50px;
+    background-color: #f0f2f5;
+    border: none;
+}
+input::placeholder{font-size: 1rem;}
+
+ .middelheader{
+    display: flex;
+    align-items: center;
+    flex: 0%;
+    justify-content: center;
+    width: 1%;
+    margin-left: 0;
+
+ }
+ .icon{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+       padding: 0px 50px;
+ }
+ .third-header{
+    display: flex;
+    align-items: center;
+ }
+ .plus{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0px 0px;
+    border-radius: 50%;
+    height: 2.7rem;
+    background-color: #f0f2f5;
+    margin: 5px;
+ }
+ .Pluss{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 0 15px;
+    font-weight: 500;
+    border-radius: 50%;
+    height: 4rem;
+    margin-right: 20px;
+
+}
+.Pluss>div{
+    padding-left: 10px;
+}
+.Pluss>img{
+    border-radius: 50%;
+    max-width: 40%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 50px;
+}
